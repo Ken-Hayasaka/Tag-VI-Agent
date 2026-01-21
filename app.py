@@ -64,7 +64,7 @@ SYSTEM_PROMPT = """
 
 # モデルの準備
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash", # 高速で安定しているモデルを指定
+    model_name="gemini-1.5-flash-latest", # 修正
     system_instruction=SYSTEM_PROMPT
 )
 
